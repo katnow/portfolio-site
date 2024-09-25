@@ -1,0 +1,10 @@
+.about {
+  font-size: 30px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  text-align: justify;
+  justify-content: center;
+  height: calc(100vh - 6rem)
+}
