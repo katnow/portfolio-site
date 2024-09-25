@@ -1,0 +1,30 @@
+@use 'styles/variables.module';
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+.page {
+  background-color: variables.$primary-color;
+  min-height: 100vh;
+  font-family: Inter, 'sans-serif';
+  color: variables.$light-gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 6rem 8rem;
+  height: 100%;
+  display: flex;
+  flex: 1
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10rem;;
+}
