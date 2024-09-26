@@ -1,0 +1,43 @@
+@use '../../styles/variables.module';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5rem;
+  position: relative;
+  height: calc(100vh - 6rem);
+
+  .position {
+    display: flex;
+    column-gap: 2rem;
+
+    .path {
+      &:before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: variables.$secondary-color;
+        display: block;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        position: relative;
+        transform: translate(-50%, 50%);
+      }
+
+      &:after {
+        content: '';
+        width: 1px;
+        height: calc(100% + 1.8rem);
+        background-color: variables.$secondary-color;
+        display: block;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+        position: relative;
+        top: 1.5rem;
+        right: 1.5px;
+      }
+    }
+
+
+  }
+}

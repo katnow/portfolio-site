@@ -1,0 +1,35 @@
+@use '../../../styles/variables.module';
+
+.company {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates {
+  font-size: 18px;
+  font-weight: 300;
+  color: variables.$secondary-color;
+}
+
+.position {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.technologies {
+  margin-top: 1rem;
+  display: flex;
+  column-gap: 0.5rem;
+}

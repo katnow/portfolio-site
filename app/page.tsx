@@ -3,6 +3,7 @@ import Intro from "@/app/components/Intro";
 import Menu from "@/app/components/Menu";
 import About from "@/app/components/About";
 import Experience from "@/app/components/Experience";
+import Projects from "@/app/components/Projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
             <div className={styles.right}>
                 <About/>
                 <Experience />
+                <Projects />
             </div>
         </div>
     </div>
